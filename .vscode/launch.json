@@ -8,6 +8,15 @@
             "name": "Flutter",
             "request": "launch",
             "type": "dart"
-        }
+        },
+        {
+            "name": "Flutter - Existing Android Build",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+              "--use-application-binary build/app/outputs/apk/debug/app-debug.apk",
+            ]
+          }
     ]
 }
